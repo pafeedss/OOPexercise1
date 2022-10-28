@@ -5,13 +5,13 @@ private String TagNo;
 	
 	
 public Bicycle( ){
-		ownerName = "Unknown";
+ownerName = "Unknown";
 TagNo = "Unknown";
 }
 		
 public Bicycle(String Name,String Tagno){
 	ownerName  = Name;
-	TagNo= Tagno;
+	this.TagNo= Tagno;
 	}
 		
 		
@@ -26,7 +26,7 @@ public Bicycle(String Name,String Tagno){
 	public void setownername(String name){
 		ownerName = name;
 	}
-	public void setTagNo(String name){
-		TagNo = name; 
+	public void setTagNo(String TagNo){
+		TagNo = TagNo; 
 	}
 }
