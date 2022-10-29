@@ -27,6 +27,6 @@ public Bicycle(String Name,String Tagno){
 		ownerName = name;
 	}
 	public void setTagNo(String TagNo){
-		TagNo = TagNo; 
+		this.TagNo = TagNo; 
 	}
 }
